@@ -128,7 +128,6 @@ void printlist()
 {
     struct node *t;
     t=head;
-    int i=0;
     while(t!=NULL)
     {
         printf(" %d",t->data);
